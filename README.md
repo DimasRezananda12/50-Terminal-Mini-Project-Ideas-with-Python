@@ -7,7 +7,8 @@ Welcome to my Python learning journey! This repository is a collection of 50 min
 | No | Project Name | Description | Tech Stack |
 |:---|:---|:---|:---|
 | 01 | [Fortune Cookie](./src/01_fortune_cookie/fortune_cookie.py) | A simple CLI app that picks a random lucky message. | `random` |
-| 02 | [Dice Rolling Simulator](./src/02_dice_rolling_simulator/main.py) | A simple CLI app that simulates rolling a dice. | `random number generator` |`loops` |`if/else` |
+| 02 | [Dice Rolling Simulator](./src/02_dice_rolling_simulator/main.py) | A simple CLI app that simulates rolling a dice. | `random number generator` \| `loops` \| `if/else` |
+| 03 | [Rock, Paper, Scissors](./src/03_rock_paper_scissor/main.py) | A simple CLI app that plays rock, paper, scissors against the computer. | `random number generator` \| `loops` \| `if/else` |
 
 
 ---
@@ -28,3 +29,4 @@ python -m venv venv
 
 # Activate venv (Mac/Linux)
 source venv/bin/activate
+```
