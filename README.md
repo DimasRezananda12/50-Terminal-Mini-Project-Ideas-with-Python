@@ -12,6 +12,9 @@ Welcome to my Python learning journey! This repository is a collection of 50 min
 | 04 | [Who Wants to Be a Millionaire](./src/04_who_wants_to_be_a_millionaire/main.py) | A CLI quiz game with 15 questions, lifelines, and a prize ladder. | `random` \| `time` \| `loops` \| `if/else` |
 | 05 | [Quiz Game](./src/05_quiz_game/main.py) | A CLI quiz with multiple categories, scoring, and a review section. | `random` \| `time` \| `loops` \| `if/else` |
 | 06 | [Text-Based Adventure](./src/06_text_based_adventure/main.py) | A CLI RPG adventure with combat, items, leveling, and multiple rooms. | `random` \| `time` \| `loops` \| `if/else` |
+| 07 | [Chatbot](./src/07_chatbot/main.py) | A rule-based terminal chatbot that responds to natural language input. | `random` \| `time` \| `loops` \| `if/else` |
+| 08 | [Truth or Dare](./src/08_truth_or_dare/main.py) | A multiplayer CLI party game with a large bank of truths and dares. | `random` \| `loops` \| `if/else` |
+| 09 | [Leap Year Checker](./src/09_leap_year/main.py) | A CLI tool that checks if a year is a leap year with a step-by-step explanation. | `loops` \| `if/else` \| `functions` |
 
 
 ---
