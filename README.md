@@ -7,8 +7,11 @@ Welcome to my Python learning journey! This repository is a collection of 50 min
 | No | Project Name | Description | Tech Stack |
 |:---|:---|:---|:---|
 | 01 | [Fortune Cookie](./src/01_fortune_cookie/fortune_cookie.py) | A simple CLI app that picks a random lucky message. | `random` |
-| 02 | [Dice Rolling Simulator](./src/02_dice_rolling_simulator/main.py) | A simple CLI app that simulates rolling a dice. | `random number generator` \| `loops` \| `if/else` |
-| 03 | [Rock, Paper, Scissors](./src/03_rock_paper_scissor/main.py) | A simple CLI app that plays rock, paper, scissors against the computer. | `random number generator` \| `loops` \| `if/else` |
+| 02 | [Dice Rolling Simulator](./src/02_dice_rolling_simulator/main.py) | A simple CLI app that simulates rolling a dice. | `random` \| `loops` \| `if/else` |
+| 03 | [Rock, Paper, Scissors](./src/03_rock_paper_scissor/main.py) | A CLI game of rock, paper, scissors against the computer. | `random` \| `loops` \| `if/else` |
+| 04 | [Who Wants to Be a Millionaire](./src/04_who_wants_to_be_a_millionaire/main.py) | A CLI quiz game with 15 questions, lifelines, and a prize ladder. | `random` \| `time` \| `loops` \| `if/else` |
+| 05 | [Quiz Game](./src/05_quiz_game/main.py) | A CLI quiz with multiple categories, scoring, and a review section. | `random` \| `time` \| `loops` \| `if/else` |
+| 06 | [Text-Based Adventure](./src/06_text_based_adventure/main.py) | A CLI RPG adventure with combat, items, leveling, and multiple rooms. | `random` \| `time` \| `loops` \| `if/else` |
 
 
 ---
