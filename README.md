@@ -15,6 +15,12 @@ Welcome to my Python learning journey! This repository is a collection of 50 min
 | 07 | [Chatbot](./src/07_chatbot/main.py) | A rule-based terminal chatbot that responds to natural language input. | `random` \| `time` \| `loops` \| `if/else` |
 | 08 | [Truth or Dare](./src/08_truth_or_dare/main.py) | A multiplayer CLI party game with a large bank of truths and dares. | `random` \| `loops` \| `if/else` |
 | 09 | [Leap Year Checker](./src/09_leap_year/main.py) | A CLI tool that checks if a year is a leap year with a step-by-step explanation. | `loops` \| `if/else` \| `functions` |
+| 10 | [Baby Blackjack](./src/10_baby_blackjack/main.py) | A simplified Blackjack CLI game with betting and balance tracking. | `random` \| `loops` \| `if/else` \| `functions` |
+| 11 | [Blackjack](./src/11_blackjack/main.py) | A full Blackjack CLI game with Hit, Stand, Double Down, and Split. | `random` \| `loops` \| `if/else` \| `functions` |
+| 12 | [Metric Conversion Tool](./src/12_metric_conversion_tool/main.py) | A CLI tool that converts between units of length, weight, temperature, volume, and speed. | `loops` \| `if/else` \| `functions` |
+| 13 | [Area Calculator](./src/13_area_calculator/main.py) | A CLI calculator for the area of 10 different geometric shapes. | `math` \| `loops` \| `if/else` \| `functions` |
+| 14 | [Guess My Number](./src/14_guess_my_number/main.py) | A CLI number guessing game with difficulty levels and warmth hints. | `random` \| `loops` \| `if/else` \| `functions` |
+| 15 | [Word Counter](./src/15_word_counter/main.py) | A CLI text analyzer that counts words, sentences, chars, and shows top words. | `re` \| `os` \| `loops` \| `functions` |
 
 
 ---
