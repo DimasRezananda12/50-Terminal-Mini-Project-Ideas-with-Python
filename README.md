@@ -21,6 +21,10 @@ Welcome to my Python learning journey! This repository is a collection of 50 min
 | 13 | [Area Calculator](./src/13_area_calculator/main.py) | A CLI calculator for the area of 10 different geometric shapes. | `math` \| `loops` \| `if/else` \| `functions` |
 | 14 | [Guess My Number](./src/14_guess_my_number/main.py) | A CLI number guessing game with difficulty levels and warmth hints. | `random` \| `loops` \| `if/else` \| `functions` |
 | 15 | [Word Counter](./src/15_word_counter/main.py) | A CLI text analyzer that counts words, sentences, chars, and shows top words. | `re` \| `os` \| `loops` \| `functions` |
+| 16 | [Morse Code Translator](./src/16_morse_code_translator/main.py) | A CLI tool that translates text to Morse code and vice versa, with a reference table. | `loops` \| `if/else` \| `functions` |
+| 17 | [Roman Numeral Converter](./src/17_roman_numeral_converter/main.py) | A CLI tool that converts integers to Roman numerals and back, with step-by-step breakdown. | `re` \| `loops` \| `if/else` \| `functions` |
+| 18 | [NYC MetroCard Calculator](./src/18_nyc_metrocard_calculator/main.py) | A CLI tool to calculate NYC subway rides, costs, and best MetroCard option. | `math` \| `loops` \| `if/else` \| `functions` |
+| 19 | [Caesar Cipher](./src/19_caesar_cipher/main.py) | A CLI encryption tool with encrypt, decrypt, brute-force, and frequency analysis. | `loops` \| `if/else` \| `functions` |
 
 
 ---
