@@ -25,6 +25,11 @@ Welcome to my Python learning journey! This repository is a collection of 50 min
 | 17 | [Roman Numeral Converter](./src/17_roman_numeral_converter/main.py) | A CLI tool that converts integers to Roman numerals and back, with step-by-step breakdown. | `re` \| `loops` \| `if/else` \| `functions` |
 | 18 | [NYC MetroCard Calculator](./src/18_nyc_metrocard_calculator/main.py) | A CLI tool to calculate NYC subway rides, costs, and best MetroCard option. | `math` \| `loops` \| `if/else` \| `functions` |
 | 19 | [Caesar Cipher](./src/19_caesar_cipher/main.py) | A CLI encryption tool with encrypt, decrypt, brute-force, and frequency analysis. | `loops` \| `if/else` \| `functions` |
+| 20 | [Bank Account Manager](./src/20_bank_account/main.py) | A CLI banking app that saves balance and transactions using JSON. | `json` \| `os` \| `datetime` \| `functions` |
+| 21 | [Daily Horoscope](./src/21_horoscope/main.py) | A CLI tool that determines zodiac signs and generates seeded daily horoscopes. | `random` \| `datetime` \| `functions` |
+| 22 | [To-Do Lists](./src/22_todo_lists/main.py) | A CLI task manager that saves and loads tasks from a JSON file. | `json` \| `os` \| `loops` \| `functions` |
+| 23 | [Grocery List Manager](./src/23_grocery/main.py) | A CLI shopping list manager with quantities and JSON persistence. | `json` \| `os` \| `loops` \| `functions` |
+
 
 
 ---
