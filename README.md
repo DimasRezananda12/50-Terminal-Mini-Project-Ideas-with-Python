@@ -29,6 +29,10 @@ Welcome to my Python learning journey! This repository is a collection of 50 min
 | 21 | [Daily Horoscope](./src/21_horoscope/main.py) | A CLI tool that determines zodiac signs and generates seeded daily horoscopes. | `random` \| `datetime` \| `functions` |
 | 22 | [To-Do Lists](./src/22_todo_lists/main.py) | A CLI task manager that saves and loads tasks from a JSON file. | `json` \| `os` \| `loops` \| `functions` |
 | 23 | [Grocery List Manager](./src/23_grocery/main.py) | A CLI shopping list manager with quantities and JSON persistence. | `json` \| `os` \| `loops` \| `functions` |
+| 24 | [Faves List Manager](./src/24_faves_list/main.py) | A CLI tool to keep track of your favorite things by categories. | `json` \| `os` \| `loops` \| `functions` |
+| 25 | [Class Schedule Manager](./src/25_class_schedule/main.py) | A CLI academic scheduler organized by days of the week. | `json` \| `os` \| `loops` \| `functions` |
+| 26 | [Expense Tracker](./src/26_expense_tracker/main.py) | A CLI finance tracker with categories and total summaries. | `json` \| `os` \| `datetime` \| `functions` |
+| 27 | [Library Management System](./src/27_library_management_system/main.py) | A CLI system to track books, lend them out, and manage availability. | `json` \| `os` \| `datetime` \| `functions` |
 
 
 
