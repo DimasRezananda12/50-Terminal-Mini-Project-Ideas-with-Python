@@ -1,41 +1,100 @@
 import random
+import json
+import os
 
-print("🫱 Welcome to Minigame Rock, Paper, Scissors!")
-print("Do you want to quit? Type 'quit' anytime to exit the game.Otherwise,let's play the game!")
-print("-" * 100)
+print("✂️ 📄 🪨 Enhanced Rock, Paper, Scissors!")
+print("Play against the computer and track your win rate.")
+print("-" * 50)
 
-user_score = 0
-computer_score = 0
+DATA_FILE = "rps_stats.json"
+OPTIONS = ["rock", "paper", "scissors"]
+EMOJIS = {"rock": "🪨", "paper": "📄", "scissors": "✂️"}
 
-options = ["rock", "paper", "scissors"]
+def load_stats():
+    if os.path.exists(DATA_FILE):
+        try:
+            with open(DATA_FILE, "r") as f:
+                return json.load(f)
+        except json.JSONDecodeError:
+            pass
+    return {"wins": 0, "losses": 0, "ties": 0}
 
-while True:
-    user_choice = input("\nEnter your choice (Rock, Paper, Scissors): ").lower()
-    
-    if user_choice == "quit":
-        print("\n" + "=" * 40)
-        print("FINAL SCORE")
-        print(f"You: {user_score} | Computer: {computer_score}")
-        print("Thanks for playing! See you next time. 👋")
-        break 
-        
-    if user_choice not in options:
-        print("Invalid choice! Please type Rock, Paper, or Scissors.")
-        continue
-        
-    computer_choice = random.choice(options)
-    
-    print(f"🤖 Computer chose: {computer_choice.capitalize()}")
-    
-    if user_choice == computer_choice:
-        print("Result: It's a Tie! 🤝")
-    elif (user_choice == "rock" and computer_choice == "scissors") or \
-         (user_choice == "paper" and computer_choice == "rock") or \
-         (user_choice == "scissors" and computer_choice == "paper"):
-        print("Result: You Win!")
-        user_score += 1
+def save_stats(stats):
+    with open(DATA_FILE, "w") as f:
+        json.dump(stats, f, indent=4)
+
+def view_stats(stats):
+    total = stats['wins'] + stats['losses'] + stats['ties']
+    print("\n  🏆 Your Lifetime Stats:")
+    print(f"     Wins:   {stats['wins']} 🟢")
+    print(f"     Losses: {stats['losses']} 🔴")
+    print(f"     Ties:   {stats['ties']} ⚪")
+    if total > 0:
+        win_rate = (stats['wins'] / total) * 100
+        print(f"     Win Rate: {win_rate:.1f}%")
+    print("-" * 50)
+
+def determine_winner(player, computer):
+    if player == computer:
+        return "tie"
+    elif (player == "rock" and computer == "scissors") or \
+         (player == "paper" and computer == "rock") or \
+         (player == "scissors" and computer == "paper"):
+        return "win"
     else:
-        print("Result: Computer Wins!")
-        computer_score += 1
+        return "lose"
+
+def main():
+    stats = load_stats()
+    
+    while True:
+        print("\n  Options:")
+        print("  1. 🎮 Play a round")
+        print("  2. 📊 View lifetime stats")
+        print("  3. ❌ Exit")
         
-    print(f"Current Score -> You: {user_score} | Computer: {computer_score}")
+        choice = input("\n  Enter choice (1-3): ").strip()
+        
+        if choice == "1":
+            print("\n  Choose your weapon:")
+            print("  1. 🪨 Rock")
+            print("  2. 📄 Paper")
+            print("  3. ✂️  Scissors")
+            
+            p_choice = input("  (1-3): ").strip()
+            if p_choice == "1": player = "rock"
+            elif p_choice == "2": player = "paper"
+            elif p_choice == "3": player = "scissors"
+            else:
+                print("  Warning: Invalid choice.")
+                continue
+                
+            computer = random.choice(OPTIONS)
+            
+            print(f"\n  You:      {player.capitalize()} {EMOJIS[player]}")
+            print(f"  Computer: {computer.capitalize()} {EMOJIS[computer]}")
+            
+            result = determine_winner(player, computer)
+            if result == "win":
+                print("  🎉 You win!")
+                stats["wins"] += 1
+            elif result == "lose":
+                print("  💻 Computer wins!")
+                stats["losses"] += 1
+            else:
+                print("  🤝 It's a tie!")
+                stats["ties"] += 1
+                
+            save_stats(stats)
+            
+        elif choice == "2":
+            view_stats(stats)
+            
+        elif choice == "3":
+            print("\n  👋 Thanks for playing!")
+            break
+        else:
+            print("  Warning: Invalid choice.")
+
+if __name__ == "__main__":
+    main()
