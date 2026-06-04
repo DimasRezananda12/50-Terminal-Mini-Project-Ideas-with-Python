@@ -7,8 +7,8 @@ Welcome to my Python learning journey! This repository is a collection of 50 min
 | No | Project Name | Description | Tech Stack |
 |:---|:---|:---|:---|
 | 01 | [Fortune Cookie](./src/01_fortune_cookie/fortune_cookie.py) | A simple CLI app that picks a random lucky message. | `random` |
-| 02 | [Dice Rolling Simulator](./src/02_dice_rolling_simulator/main.py) | A simple CLI app that simulates rolling a dice. | `random` \| `loops` \| `if/else` |
-| 03 | [Rock, Paper, Scissors](./src/03_rock_paper_scissor/main.py) | A CLI game of rock, paper, scissors against the computer. | `random` \| `loops` \| `if/else` |
+| 02 | [Dice Rolling Simulator](./src/02_dice_rolling_simulator/main.py) | A CLI app that simulates rolling a dice and saves stats to JSON. | `json` \| `os` \| `random` \| `loops` |
+| 03 | [Rock, Paper, Scissors](./src/03_rock_paper_scissor/main.py) | A CLI game against the computer with lifetime stats saved to JSON. | `json` \| `os` \| `random` \| `loops` |
 | 04 | [Who Wants to Be a Millionaire](./src/04_who_wants_to_be_a_millionaire/main.py) | A CLI quiz game with 15 questions, lifelines, and a prize ladder. | `random` \| `time` \| `loops` \| `if/else` |
 | 05 | [Quiz Game](./src/05_quiz_game/main.py) | A CLI quiz with multiple categories, scoring, and a review section. | `random` \| `time` \| `loops` \| `if/else` |
 | 06 | [Text-Based Adventure](./src/06_text_based_adventure/main.py) | A CLI RPG adventure with combat, items, leveling, and multiple rooms. | `random` \| `time` \| `loops` \| `if/else` |
@@ -19,7 +19,7 @@ Welcome to my Python learning journey! This repository is a collection of 50 min
 | 11 | [Blackjack](./src/11_blackjack/main.py) | A full Blackjack CLI game with Hit, Stand, Double Down, and Split. | `random` \| `loops` \| `if/else` \| `functions` |
 | 12 | [Metric Conversion Tool](./src/12_metric_conversion_tool/main.py) | A CLI tool that converts between units of length, weight, temperature, volume, and speed. | `loops` \| `if/else` \| `functions` |
 | 13 | [Area Calculator](./src/13_area_calculator/main.py) | A CLI calculator for the area of 10 different geometric shapes. | `math` \| `loops` \| `if/else` \| `functions` |
-| 14 | [Guess My Number](./src/14_guess_my_number/main.py) | A CLI number guessing game with difficulty levels and warmth hints. | `random` \| `loops` \| `if/else` \| `functions` |
+| 14 | [Guess My Number](./src/14_guess_my_number/main.py) | A CLI number guessing game with JSON high scores and difficulty levels. | `json` \| `os` \| `random` \| `loops` |
 | 15 | [Word Counter](./src/15_word_counter/main.py) | A CLI text analyzer that counts words, sentences, chars, and shows top words. | `re` \| `os` \| `loops` \| `functions` |
 | 16 | [Morse Code Translator](./src/16_morse_code_translator/main.py) | A CLI tool that translates text to Morse code and vice versa, with a reference table. | `loops` \| `if/else` \| `functions` |
 | 17 | [Roman Numeral Converter](./src/17_roman_numeral_converter/main.py) | A CLI tool that converts integers to Roman numerals and back, with step-by-step breakdown. | `re` \| `loops` \| `if/else` \| `functions` |
@@ -33,6 +33,9 @@ Welcome to my Python learning journey! This repository is a collection of 50 min
 | 25 | [Class Schedule Manager](./src/25_class_schedule/main.py) | A CLI academic scheduler organized by days of the week. | `json` \| `os` \| `loops` \| `functions` |
 | 26 | [Expense Tracker](./src/26_expense_tracker/main.py) | A CLI finance tracker with categories and total summaries. | `json` \| `os` \| `datetime` \| `functions` |
 | 27 | [Library Management System](./src/27_library_management_system/main.py) | A CLI system to track books, lend them out, and manage availability. | `json` \| `os` \| `datetime` \| `functions` |
+| 28 | [Contact Book](./src/28_contact_book/main.py) | A CLI tool to manage contacts with search capabilities and JSON storage. | `json` \| `os` \| `loops` \| `functions` |
+| 29 | [Recipe Book](./src/29_recipe_book/main.py) | A CLI cookbook to store and search recipes by ingredients via JSON. | `json` \| `os` \| `loops` \| `functions` |
+| 30 | [Pokédex](./src/30_pokedex/main.py) | A CLI Pokémon encyclopedia to view, search, and add custom entries. | `json` \| `os` \| `loops` \| `functions` |
 
 
 
